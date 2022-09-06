@@ -1,0 +1,106 @@
+.vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+/* Botones destino */
+.destinos {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+.destinos-div {
+    background-image: url(https://wallpapercave.com/wp/wp5240508.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.destinos-title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #8c8279;
+    font-family: "Montserrat", sans-serif;
+    /* background: #8c8279; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.destinos-opt {
+    margin: 20px auto;
+}
+
+.destinos-opt button {
+    background-color: #8c8279;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.destinos-opt button:hover {
+    filter: brightness(130%);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* TABLET */
+@media (min-width: 950px) {
+
+    .vertical-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .destinos {
+        text-align: center;
+    }
+
+    .destinos-div {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 150px;
+        padding-top: 150px;
+    }
+
+    .destinos-title {
+        font-size: 30px;
+    }
+
+    .destinos-opt button {
+        font-size: 20px;
+        padding: 0.5em 1em;
+    }
+}
+
+/* PC */
+@media (min-width: 1200px) {
+
+    .destinos {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .destinos-div {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 150px;
+        padding-top: 150px;
+        justify-content: space-between;
+    }
+
+    .destinos-title {
+        font-size: 40px;
+    }
+
+    .destinos-opt button {
+        font-size: 30px;
+        padding: 0.5em 1em;
+    }
+}

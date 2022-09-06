@@ -1,0 +1,83 @@
+.contacto-container {
+    background-image: url(https://wallpapercave.com/wp/wp5240508.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15%;
+    padding: 30px 30px;
+    margin-bottom: 15%;
+}
+
+.contacto-form {
+    background-color: #fff;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1em;
+    margin: auto;
+}
+
+.contacto {
+    display: grid;
+    width: 100%;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.contacto-input {
+    font-family: inherit;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+
+.contacto-input--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: 1.5em;
+}
+
+.contacto-submit {
+    font-family: inherit;
+    font-size: 1em;
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+}
+
+.contacto-titulo {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+@media (min-width: 950px) {
+    .contacto-container {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .contacto-form {
+
+        padding: 3.5em 1.5em;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .contacto-container {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .contacto-form {
+
+        padding: 3.5em 1.5em;
+
+    }
+}
