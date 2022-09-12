@@ -10,7 +10,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 main{
-    height: 100vh
+    position: relative;
+    min-height: 100vh;
 }
 
 
@@ -78,7 +79,6 @@ a {
     padding: 40px 0;
     background-color: #e5e5e5;
     bottom: 0;
- 
     width: 100%;
 }
 

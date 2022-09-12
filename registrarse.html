@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/contacto.css" />
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/registrostyle.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Contactanos</title>
+    <script src="https://kit.fontawesome.com/4e6ce4112e.js" crossorigin="anonymous"></script>
+    <title> Registro</title>
 </head>
-
 <body>
-    <!-- Header -->
     <header class="header">
         <nav class="nav">
             <div class="logo">
@@ -25,32 +24,49 @@
 
             <ul class="menu">
                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./registrarse.html">Registro</a></li>
+                <li><a href="./registrarse.html">Registrarse</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
 
         </nav>
     </header>
-    <!-- Body -->
-    <div class="contacto-container">
-        <form class="contacto-form">
-            <div class="contacto">
-                <h2 class="contacto-titulo">Contactanos!</h2>
-                <input type="text" class="contacto-input" placeholder="Nombre y apellido:">
-                <input type="email" class="contacto-input" placeholder="Email:">
-                <input type="text" class="contacto-input" placeholder="Telefono:">
-                <textarea class="contacto-input contacto-input--message" placeholder="Mensaje:"></textarea>
-                <input type="submit" value="Enviar" class="contacto-submit">
+
+
+    <form class="formulario">
+        
+        <h1>Registrate</h1>
+        <div class="contenedor">
+            <div class="input-contenedor">
+            <input type="text" placeholder="Nombres"><br>
+            </div><br>
+            
+            <div class="input-contenedor">
+            <input type="text" placeholder="Apellido">
+            </div><br>
+
+            <div class="input-contenedor">
+            <input type="password" placeholder="Contraseña">
+            </div><br>
+
+            <div class="input-contenedor">
+
+            <input type="text" placeholder="Correo electrónico">
             </div>
-        </form>
-    </div>
+            
+            <br><input type="submit" value="Registrate" class="button"><br>
+            <p>Al registrarte aceptas nuestros usos de condiciones y políticas de privacidad</p><br>
+            <P>¿Ya tienes cuenta?<a class="link" href="iniciarsesion.html">Iniciar sesion</a> </P>
+        </div>
+    
+    </form>
+
     <section class="footer">
         <div class="social">
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-youtube"></i></a>
-
+    
         </div>
         <ul class="list">
             <li>
@@ -73,6 +89,6 @@
             Mochila Viajera @ 2022
         </p>
     </section>
+    
 </body>
-
 </html>

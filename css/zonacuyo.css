@@ -1,0 +1,133 @@
+.title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color:#8c8279;
+    
+}
+.title h1{
+    padding: 1% 1%;
+    /* background-color: #d1d0cd;
+    border-radius: 10rem; */
+}
+
+.listado {
+    font-size: 18px;
+    padding: 10px 10px;
+    color:black;
+
+}
+
+.listado li {
+
+    padding: 7px 0;
+    list-style: none;
+
+}
+
+.info {
+    text-align: center;
+}
+
+.destino-grid {
+    display: grid;
+    grid-row: auto;
+}
+.destino-container {
+    margin: 2% 2%;
+    background-color: #d1d0cd;
+
+}
+.destino-img img{
+    width: 700px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.destino-title {
+    text-decoration: underline;
+    margin: 2% 2%;
+    font-size: 27px;
+    color:#8c8279;
+}
+
+.destino-description {
+    font-size: medium;
+    line-height: 2em;
+    margin: 1.5% 2%;
+}
+
+.destino-text {
+    font-size: medium;
+    line-height: 2em;
+    margin: 1.5% 2%;
+}
+
+.destino p {
+    font-size: medium;
+    line-height: 2em;
+    margin: 1.5% 2%;
+}
+
+.destino-lugar {
+    color: #8c8279;
+    margin: 3% 3%;
+    font-size: 20px;
+}
+
+.destino-img img {
+    height: 300px;
+}
+
+@media (min-width: 1200px) {
+    .title{
+        font-size: 35px;
+    }
+    .destino-grid {
+        display: grid;
+        grid-template-columns: auto 10px auto;
+    }
+
+    .destino-container {
+        margin: 3% 3%;
+        background-color: #d1d0cd;
+    }
+
+    .destino-container2 {
+        margin: 3% 3%;
+    }
+
+    .destino-container2 .destino-text {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .destino-img img {
+        float: left;
+        width: 600px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .destino-text {
+        font-size: 1rem;
+        line-height: 2em;
+        margin: 1.5% 1%;
+        padding: 20% 10%;
+    }
+    .line{
+        background-color: #8c8279;
+        padding-left: 10px;
+    }
+    .destino-title{
+        font-size: 30px;
+        color: #8c8279;
+    }
+    .destino-description{
+        font-size:20px;
+        text-align: center;
+
+    }
+}

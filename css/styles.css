@@ -42,6 +42,10 @@
     padding: 0.5em 1em;
     border-radius: 7px;
     cursor: pointer;
+    
+}
+.destinos-btn a{
+    color:white;
 }
 
 .destinos-opt button:hover {
