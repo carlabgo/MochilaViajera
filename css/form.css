@@ -56,6 +56,14 @@
     margin-bottom: .4em;
 }
 
+.contacto-span {
+    text-align: center;
+    
+}
+.contacto-span a{
+    color:cadetblue;
+}
+
 @media (min-width: 950px) {
     .contacto-container {
         margin-top: 10%;
