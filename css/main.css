@@ -77,6 +77,7 @@ a {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s;
+    margin-top: -1000px;
 }
 
 .menu li {
@@ -124,6 +125,7 @@ a {
 .menu_opened {
     opacity: 1;
     pointer-events: all;
+    margin-top: 0;
 }
 
 /* Footer */
@@ -214,6 +216,7 @@ a {
         position: relative;
         opacity: 1;
         justify-content: flex-end;
+        margin-top: 0;
     }
 
     .menu li {
@@ -266,6 +269,7 @@ a {
         position: relative;
         opacity: 1;
         justify-content: flex-end;
+        margin-top: 0;
     }
 
     .menu li {
