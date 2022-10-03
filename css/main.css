@@ -91,28 +91,35 @@ a {
     align-items: center;
 }
 
+
 .open-menu,
 .close-menu {
     display: block;
-}
-
-.close-menu {
-    align-self: center;
     border: none;
     background: none;
     cursor: pointer;
-    padding-top: 32px;
-    padding-left: 10px;
-    /* align-items: center; */
+}
+.open-menu i {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
 }
 
-.open-menu {
+.close-menu {
+    align-self: flex-end;
+    padding: 20px 15px;
+}
+.close-menu i {
+    color: white;
+    font-size: 25px;
+}
+/* .open-menu {
     align-self: flex-end;
     border: none;
     background: none;
     cursor: pointer;
     padding-top: 20px;
-}
+} */
 
 .menu_opened {
     opacity: 1;
