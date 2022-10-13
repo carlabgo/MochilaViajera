@@ -9,8 +9,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-main{
-    position: relative;
+
+main {
+    /* position: relative; */
     min-height: 100vh;
 }
 
@@ -34,10 +35,11 @@ a {
 
 /* Navbar */
 .nav {
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
     padding: 10px 10px;
+    align-items: center;
 }
 
 .li {
@@ -62,6 +64,21 @@ a {
 }
 
 /* Menu */
+.menu {
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    background-color: #8c8279;
+    height: 100%;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
 .menu li {
     padding: 10px 0;
     list-style: none;
@@ -72,6 +89,34 @@ a {
     font-size: 15px;
     font-weight: 500;
     align-items: center;
+}
+
+.open-menu,
+.close-menu {
+    display: block;
+}
+
+.close-menu {
+    align-self: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-top: 32px;
+    padding-left: 10px;
+    /* align-items: center; */
+}
+
+.open-menu {
+    align-self: flex-end;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.menu_opened {
+    opacity: 1;
+    pointer-events: all;
 }
 
 /* Footer */
@@ -131,13 +176,21 @@ a {
 }
 
 @media (min-width: 950px) {
+    .vertical-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
     a {
         text-decoration: none;
     }
 
+
     /* Navbar */
     .nav {
-        display: flex;
+        position: relative;
+        justify-content: space-between;
+        flex-direction: row;
         padding: 10px;
     }
 
@@ -148,6 +201,12 @@ a {
     /* Menu */
     .menu {
         display: flex;
+        pointer-events: all;
+        position: fixed;
+        flex-direction: row;
+        position: relative;
+        opacity: 1;
+        justify-content: flex-end;
     }
 
     .menu li {
@@ -160,6 +219,11 @@ a {
         font-weight: 500;
         align-items: center;
         line-height: 50px;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: none;
     }
 }
 
@@ -176,7 +240,9 @@ a {
 
     /* Navbar */
     .nav {
-        display: flex;
+        position: relative;
+        justify-content: space-between;
+        flex-direction: row;
         padding: 10px;
     }
 
@@ -187,6 +253,12 @@ a {
     /* Menu */
     .menu {
         display: flex;
+        pointer-events: all;
+        position: fixed;
+        flex-direction: row;
+        position: relative;
+        opacity: 1;
+        justify-content: flex-end;
     }
 
     .menu li {
@@ -199,5 +271,10 @@ a {
         font-weight: 500;
         align-items: center;
         line-height: 50px;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: none;
     }
 }
