@@ -2,6 +2,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 /* Botones destino */
 .destinos {
     text-align: center;
@@ -42,16 +43,42 @@
     padding: 0.5em 1em;
     border-radius: 7px;
     cursor: pointer;
-    
+
 }
-.destinos-btn a{
-    color:white;
+
+.destinos-btn a {
+    color: white;
 }
 
 .destinos-opt button:hover {
     filter: brightness(130%);
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
         0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mostrar {
+    width: 250px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+.destinos-array {
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(212, 212, 212);
+}
+
+.destinos-array img {
+    width: 400px;
+    height: 275px;
+    opacity: 0.9;
+}
+
+.destinos-array h3 {
+    font-size: 15px;
+    color: #8c8279;
 }
 
 /* TABLET */
@@ -106,5 +133,16 @@
     .destinos-opt button {
         font-size: 30px;
         padding: 0.5em 1em;
+    }
+
+    .destinos-array {
+        margin: 5px 5px;
+    }
+
+    #mostrar_destinos {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

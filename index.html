@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,7 +18,8 @@
     <header class="header">
         <nav class="nav">
             <div class="logo">
-                <img src="img\mochila.png" alt="viaje" width="50" height="50">
+                <a href="./index.html"
+                > <img src="img\mochila.png" alt="viaje" width="50" height="50" ></a>
                 <p>Mochila Viajera</p>
             </div>
             <button class="open-menu" aria-label="Abrir menu">
@@ -25,34 +27,40 @@
             </button>
             <ul class="menu">
                 <div class="close-menu" aria-label="Cerrar menu">
-                    
-                        <i class="fa-solid fa-xmark"></i>
+
+                    <i class="fa-solid fa-xmark"></i>
                 </div>
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./registrarse.html">Registro</a></li>
+                <li><a href="./login.html">Inicia sesion</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-<main>
-                    <div class="vertical-padding">
-                        <section class="destinos">
-                            <h2 class="destinos-title">Conoce nuestros destinos</h2>
-                            <div class="destinos-div">
-                                <div class="destinos-opt">
-                                    <button class="destinos-btn"><a href="zonanorte.html">Zona Norte</a></button>
-                                </div>
-                                <div class="destinos-opt">
-                                    <button class="destinos-btn"><a href="zonasur.html">Zona Sur</a></button>
-                                </div>
-                                <div class="destinos-opt">
-                                    <button class="destinos-btn"><a href="./zonacuyo.html">Zona Cuyo</a></button>
-                                </div>
-                            </div>
-                        </section>
+    <main>
+        <div class="vertical-padding">
+            <section class="destinos">
+                <h2 class="destinos-title">Conoce nuestros destinos</h2>
+                <div class="destinos-div">
+                    <div class="destinos-opt">
+                        <button class="destinos-btn"><a href="zonanorte.html">Zona Norte</a></button>
                     </div>
+                    <div class="destinos-opt">
+                        <button class="destinos-btn"><a href="zonasur.html">Zona Sur</a></button>
+                    </div>
+                    <div class="destinos-opt">
+                        <button class="destinos-btn"><a href="./zonacuyo.html">Zona Cuyo</a></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="card-container">
+            <div id="mostrar_destinos">
+            </div>
+        </div>
     </main>
+    
     <footer>
         <section class="footer">
             <div class="social">
@@ -84,13 +92,12 @@
             </p>
         </section>
     </footer>
-<<<<<<< HEAD
 
 </body>
 <script src="js/index.js"></script>
-=======
-    <script src="js/index.js"></script>
+
+<script src="js/index.js"></script>
 </body>
->>>>>>> 05dc2d2ab8acc2cc633161d62c6333f1a1914be7
+
 
 </html>

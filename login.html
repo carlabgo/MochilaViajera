@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/form.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Contactanos</title>
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Registrate</title>
 </head>
 
 <body>
@@ -40,12 +40,13 @@
     <div class="contacto-container">
         <form class="contacto-form">
             <div class="contacto">
-                <h2 class="contacto-titulo">Contactanos!</h2>
-                <input type="text" class="contacto-input" placeholder="Nombre y apellido:">
-                <input type="email" class="contacto-input" placeholder="Email:">
-                <input type="text" class="contacto-input" placeholder="Telefono:">
-                <textarea class="contacto-input contacto-input--message" placeholder="Mensaje:"></textarea>
+                <h2 class="contacto-titulo">Inicia sesion!</h2>
+                <input id= "usuario" type="text" class="contacto-input" placeholder="Username">
+                <input id= "pass" type="password" class="contacto-input" placeholder="Password">
                 <input type="submit" value="Enviar" class="contacto-submit">
+                <div class="contacto-span">
+                    <span>No tenes cuenta? <a href="./registrarse.html">Registrate</a></span>
+                </div>
             </div>
         </form>
     </div>
@@ -78,6 +79,7 @@
             Mochila Viajera @ 2022
         </p>
     </section>
+    <script src = "js/login.js"></script>
 </body>
 
 </html>
